@@ -8,6 +8,7 @@ import Updaterfn from "./Updaterfn";
 import NestedForm from "./NestedForm";
 import Refer from "./Refer";
 import UseRef from "./UseRef";
+import ChatApp from "./ChatApp";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             <UseRef />
           </div>
         </div>
+      </div>
+      <div className="App">
+        <ChatApp />
       </div>
     </div>
   );
