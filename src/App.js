@@ -9,6 +9,8 @@ import NestedForm from "./NestedForm";
 import Refer from "./Refer";
 import UseRef from "./UseRef";
 import ChatApp from "./ChatApp";
+import SportsList from "./SportsList";
+import ToggleButton from "./ToggleButton";
 
 function App() {
   return (
@@ -32,6 +34,12 @@ function App() {
       </div>
       <div className="App">
         <ChatApp />
+      </div>
+      <div className="App">
+        <SportsList />
+      </div>
+      <div className="App">
+        <ToggleButton />
       </div>
     </div>
   );
